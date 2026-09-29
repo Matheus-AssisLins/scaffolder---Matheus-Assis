@@ -903,7 +903,7 @@ export const getTasksControllerFindAllUrl = (params?: TasksControllerFindAllPara
 }
 
 /**
- * Lista tarefas com paginação, busca por texto, filtro por status/prioridade e ordenação.
+ * Lista tarefas com paginação, busca por texto, filtro por status/prioridade/categoria e ordenação.
  * @summary Listar tarefas paginadas
  */
 export const tasksControllerFindAll = async (params?: TasksControllerFindAllParams, options?: Parameters<typeof customFetch>[1]): Promise<tasksControllerFindAllResponse> => {
